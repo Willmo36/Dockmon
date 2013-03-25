@@ -1,0 +1,26 @@
+﻿<Window x:Class="DeskNote.MainWindow"
+        xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
+        xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+        Title="Keep" Height="700" Width="600"
+        BorderBrush="Gray"
+        BorderThickness="3">
+    <Window.Resources>
+        <ResourceDictionary Source="Metro.xaml">
+        </ResourceDictionary>
+
+    </Window.Resources>
+
+    <DockPanel LastChildFill="True">
+        <WrapPanel Orientation="Horizontal" DockPanel.Dock="Top">
+            <Button Style="{StaticResource MetroButton}" Name="close" Click="close_Click">Close</Button>
+            <Button Style="{StaticResource MetroButton}" Name="dockRight" Click="dockRight_Click">Dock Right</Button>
+            <Button Style="{StaticResource MetroButton}" Name="dockLeft" Click="dockLeft_Click">Dock Left</Button>
+            <Button Style="{StaticResource MetroButton}" Name="noDock" Click="noDock_Click">No Dock</Button>
+            <Button Style="{StaticResource MetroButton}" Name="trello" Click="trello_Click">Trello</Button>
+            <Button Style="{StaticResource MetroButton}" Name="keep" Click="keep_Click">Google Keep</Button>
+        </WrapPanel>
+        <WebBrowser Name="noteWindow" Navigated="noteWindow_Navigated">
+
+        </WebBrowser>
+    </DockPanel>
+</Window>
