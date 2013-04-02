@@ -23,7 +23,7 @@ namespace DeskNote
         public MainWindow()
         {
             InitializeComponent();
-            this.noteWindow.Source = new Uri("https://drive.google.com/keep/");
+            this.DataContext = new DeskNoteViewModel();
         }
 
         #region hide script errors http://stackoverflow.com/questions/1298255/how-do-i-suppress-script-errors-when-using-the-wpf-webbrowser-control
@@ -60,18 +60,7 @@ namespace DeskNote
         private void noDock_Click(object sender, RoutedEventArgs e)
         {
             AppBarFunctions.SetAppBar(this, ABEdge.None);
-        }
-
-        private void trello_Click(object sender, RoutedEventArgs e)
-        {
-            this.noteWindow.Source = new Uri("http://trello.com");
-        }
-
-        private void keep_Click(object sender, RoutedEventArgs e)
-        {
-            this.noteWindow.Source = new Uri("https://drive.google.com/keep/");
-        }
-         
+        }        
 
     }
 

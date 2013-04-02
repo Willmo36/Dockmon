@@ -5,19 +5,34 @@
         BorderBrush="Gray"
         BorderThickness="3">
     <Window.Resources>
-        <ResourceDictionary Source="Metro.xaml">
+        <ResourceDictionary>
+            <ResourceDictionary.MergedDictionaries>
+                <ResourceDictionary Source="Metro.xaml">
+                </ResourceDictionary>
+                <ResourceDictionary>
+                    <DataTemplate x:Key="AppTemplate">
+                        <Button Content="{Binding Name}" Style="{StaticResource MetroButton}" Command="{Binding AppCommand}" CommandParameter="{Binding URL}"></Button>
+                    </DataTemplate>
+                </ResourceDictionary>
+            </ResourceDictionary.MergedDictionaries>
         </ResourceDictionary>
 
     </Window.Resources>
-
     <DockPanel LastChildFill="True">
         <WrapPanel Orientation="Horizontal" DockPanel.Dock="Top">
-            <Button Style="{StaticResource MetroButton}" Name="close" Click="close_Click">Close</Button>
-            <Button Style="{StaticResource MetroButton}" Name="dockRight" Click="dockRight_Click">Dock Right</Button>
-            <Button Style="{StaticResource MetroButton}" Name="dockLeft" Click="dockLeft_Click">Dock Left</Button>
-            <Button Style="{StaticResource MetroButton}" Name="noDock" Click="noDock_Click">No Dock</Button>
-            <Button Style="{StaticResource MetroButton}" Name="trello" Click="trello_Click">Trello</Button>
-            <Button Style="{StaticResource MetroButton}" Name="keep" Click="keep_Click">Google Keep</Button>
+            <DockPanel>
+                <Button Style="{StaticResource MetroButton}" DockPanel.Dock="Top" Name="close" Click="close_Click">Close</Button>
+                <Button Style="{StaticResource MetroButton}" DockPanel.Dock="Right" Name="dockRight" Click="dockRight_Click">Right</Button>
+                <Button Style="{StaticResource MetroButton}" DockPanel.Dock="Left" Name="dockLeft" Click="dockLeft_Click">Left</Button>
+                <Button Style="{StaticResource MetroButton}" DockPanel.Dock="Bottom" Name="noDock" Click="noDock_Click">No Dock</Button>
+            </DockPanel>
+            <ItemsControl ItemTemplate="{StaticResource AppTemplate}" ItemsSource="{Binding Apps}">
+                <ItemsControl.ItemsPanel>
+                    <ItemsPanelTemplate>
+                        <StackPanel Orientation="Horizontal"></StackPanel>
+                    </ItemsPanelTemplate>
+                </ItemsControl.ItemsPanel>
+            </ItemsControl>
         </WrapPanel>
         <WebBrowser Name="noteWindow" Navigated="noteWindow_Navigated">
 

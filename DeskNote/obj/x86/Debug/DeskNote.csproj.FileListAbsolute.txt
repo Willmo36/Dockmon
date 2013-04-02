@@ -16,3 +16,31 @@ c:\users\mwillmott\documents\visual studio 2010\Projects\DeskNote\DeskNote\bin\D
 c:\users\mwillmott\documents\visual studio 2010\Projects\DeskNote\DeskNote\obj\x86\Debug\DeskNote.exe.manifest
 c:\users\mwillmott\documents\visual studio 2010\Projects\DeskNote\DeskNote\obj\x86\Debug\DeskNote.application
 c:\users\mwillmott\documents\visual studio 2010\Projects\DeskNote\DeskNote\obj\x86\Debug\Metro.baml
+C:\Users\mwillmott\Documents\GitHub\Dockmon\DeskNote\obj\x86\Debug\DeskNote.exe
+C:\Users\mwillmott\Documents\GitHub\Dockmon\DeskNote\obj\x86\Debug\DeskNote.pdb
+C:\Users\mwillmott\Documents\GitHub\Dockmon\DeskNote\bin\Debug\DeskNote.exe.manifest
+C:\Users\mwillmott\Documents\GitHub\Dockmon\DeskNote\bin\Debug\DeskNote.application
+C:\Users\mwillmott\Documents\GitHub\Dockmon\DeskNote\bin\Debug\DeskNote.exe
+C:\Users\mwillmott\Documents\GitHub\Dockmon\DeskNote\bin\Debug\DeskNote.pdb
+C:\Users\mwillmott\Documents\GitHub\Dockmon\DeskNote\obj\x86\Debug\ResolveAssemblyReference.cache
+C:\Users\mwillmott\Documents\GitHub\Dockmon\DeskNote\obj\x86\Debug\MainWindow.baml
+C:\Users\mwillmott\Documents\GitHub\Dockmon\DeskNote\obj\x86\Debug\Metro.baml
+C:\Users\mwillmott\Documents\GitHub\Dockmon\DeskNote\obj\x86\Debug\MainWindow.g.cs
+C:\Users\mwillmott\Documents\GitHub\Dockmon\DeskNote\obj\x86\Debug\App.g.cs
+C:\Users\mwillmott\Documents\GitHub\Dockmon\DeskNote\obj\x86\Debug\DeskNote_MarkupCompile.cache
+C:\Users\mwillmott\Documents\GitHub\Dockmon\DeskNote\obj\x86\Debug\DeskNote.g.resources
+C:\Users\mwillmott\Documents\GitHub\Dockmon\DeskNote\obj\x86\Debug\DeskNote.Properties.Resources.resources
+C:\Users\mwillmott\Documents\GitHub\Dockmon\DeskNote\obj\x86\Debug\GenerateResource.read.1.tlog
+C:\Users\mwillmott\Documents\GitHub\Dockmon\DeskNote\obj\x86\Debug\GenerateResource.write.1.tlog
+C:\Users\mwillmott\Documents\GitHub\Dockmon\DeskNote\obj\x86\Debug\DeskNote.exe.manifest
+C:\Users\mwillmott\Documents\GitHub\Dockmon\DeskNote\obj\x86\Debug\DeskNote.application
+C:\Users\mwillmott\Documents\GitHub\Dockmon\DeskNote\bin\Debug\System.Reactive.Core.dll
+C:\Users\mwillmott\Documents\GitHub\Dockmon\DeskNote\bin\Debug\System.Reactive.Interfaces.dll
+C:\Users\mwillmott\Documents\GitHub\Dockmon\DeskNote\bin\Debug\System.Reactive.Core.xml
+C:\Users\mwillmott\Documents\GitHub\Dockmon\DeskNote\bin\Debug\System.Reactive.Interfaces.xml
+C:\Users\mwillmott\Documents\GitHub\Dockmon\DeskNote\bin\Debug\System.Reactive.Linq.dll
+C:\Users\mwillmott\Documents\GitHub\Dockmon\DeskNote\bin\Debug\System.Reactive.PlatformServices.dll
+C:\Users\mwillmott\Documents\GitHub\Dockmon\DeskNote\bin\Debug\System.Reactive.Providers.dll
+C:\Users\mwillmott\Documents\GitHub\Dockmon\DeskNote\bin\Debug\System.Reactive.Linq.xml
+C:\Users\mwillmott\Documents\GitHub\Dockmon\DeskNote\bin\Debug\System.Reactive.PlatformServices.xml
+C:\Users\mwillmott\Documents\GitHub\Dockmon\DeskNote\bin\Debug\System.Reactive.Providers.xml
